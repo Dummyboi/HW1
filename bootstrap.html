@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>About Me</title>
+      </head>
+      <body>
+        <div class="container">
+          <h1>Adam Salyers - <h3>Software Development Tools and Methods</h3></h1>
+        </div>
+        <div class="card">
+            <div class="card-body">I am a Junior CS student at CU Boulder</div>
+        </div>
+        <h3> Fun Facts! </h3>
+        <p>
+          I have asphalt in my face
+          <br />
+          I almost die and average of .5 times per year
+          <br />
+          And I really like soda
+        </p>
+        <h2>My Professional Profile</h2>
+        <img src="https://i.redd.it/qqgds2i3ueh31.jpg" class="img-circle" alt="Cool Pciture Right!" height="700" width="560">
+        <br>
+        <a href="https://github.com/AdamSalyers" class="btn btn-info" role="button">My Github!</a>
+        <h3>My Favorite Projects!</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Project</th>
+              <th scope="col">Technology Used</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>MusicLibrary</td>
+              <td>C++</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Kruskal Implentation</td>
+              <td>Python</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#num1">Countries Travelled</button>
+        <div id="num1" class="collapse">
+          <ul>
+           <li>Mexico</li>
+           <li>Italy</li>
+           <li>Malaysia</li>
+          </ul>
+        </div>
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#num2">My interests</button>
+        <div id="num2" class="collapse">
+          <ol>
+           <li>Skiing</li>
+           <li>Drinking</li>
+           <li>painting nicolas cage</li>
+          </ol>
+        </div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Click Me!
+        </button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Goodbye</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                We are what we repeatedly do. Excellence, then, is not an act, but a habit.
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>

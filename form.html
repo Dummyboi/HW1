@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>About Me</title>
+      </head>
+      <body>
+        <form>
+          <h1> Add Article </h1>
+            <div class="form-group">
+              <label for="exampleInput">Title</label>
+              <input type="title" class="form-control" id="exampleInput" placeholder="Enter Title">
+            </div>
+            <div class="form-group">
+              <label for="exampleInput1">Author</label>
+              <input type="Author" class="form-control" id="exampleInput1" placeholder="Enter Author">
+            </div>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Page
+              </button>
+              <p>Choose File</p>
+              <div class="dropdown-menu" aria-labelledby="What page should it appear?">
+                <a class="dropdown-item">Home</a>
+                <a class="dropdown-item">Form</a>
+                <a class="dropdown-item">Another Page</a>
+              </div>
+            </div>
+            <div> <class="custom-file mb-3">
+              <input type="file" class="custom-file-input" id="customFile" name="filename">
+              <label class="custom-file-label" for="customFile">Choose file</label>
+            </div>
+            <div class="form-group">
+             <label for="comment">Article Text</label>
+             <textarea class="form-control" rows="10" id="comment"></textarea>
+            </div>
+            <h3>Select Tags</h3>
+            <label class="checkbox-inline"><input type="checkbox" value="">Python</label>
+            <label class="checkbox-inline"><input type="checkbox" value="">C++</label>
+            <label class="checkbox-inline"><input type="checkbox" value="">Java</label>
+            <label class="checkbox-inline"><input type="checkbox" value="">Scala</label>
+            <label class="checkbox-inline"><input type="checkbox" value="">Pearl</label>
+            <div class="btn-group">
+             <button type="button" class="btn btn-primary">Public</button>
+             <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+               <span class="caret"></span>
+             </button>
+             <ul class="dropdown-menu" role="menu">
+               <li><a>Private</a></li>
+             </ul>
+            </div>
+              <div class="form-group">
+                <label for="email">Username</label>
+                <input type="email" class="form-control" id="usr">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password</label>
+                <input type="password" class="form-control" id="pwd">
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+              </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </body>
+    </html>
